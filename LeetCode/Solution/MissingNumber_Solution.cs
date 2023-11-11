@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Solution;
 
-public class MissingNumber_Solution : ISolution
+public class MissingNumber_Solution
 {
-    public void Run()
+    public static void Run()
     {
         int[] nums = { 3, 0, 1 };
 

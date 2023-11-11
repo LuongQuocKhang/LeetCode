@@ -1,14 +1,14 @@
 ﻿namespace LeetCode.Solution;
 
-public class LongestCommonPrefix_Solution : ISolution
+public class LongestCommonPrefix_Solution
 {
-    public void Run()
+    public static void Run()
     {
         string[] strs = { "flower", "flow", "flight" };
         LongestCommonPrefix(strs);
     }
 
-    public string LongestCommonPrefix(string[] strs)
+    public static string LongestCommonPrefix(string[] strs)
     {
         var commonPrefix = new List<string>();
         if (strs.Length > 0)

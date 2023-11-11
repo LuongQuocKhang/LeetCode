@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Solution;
 
-public class SortColors_Solution : ISolution
+public class SortColors_Solution
 {
-    public void Run()
+    public static void Run()
     {
         int[] nums = { 2, 0, 2, 1, 1, 0 };
         SortColors(nums);

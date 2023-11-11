@@ -2,9 +2,9 @@
 
 namespace LeetCode.Solution;
 
-public class ReverseInteger_Solution : ISolution
+public class ReverseInteger_Solution
 {
-    public void Run()
+    public static void Run()
     {
         Console.WriteLine(Reverse(1234));
     }

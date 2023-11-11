@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Solution;
 
-public class MaximumSubarray_Solution : ISolution
+public class MaximumSubarray_Solution
 {
-    public void Run()
+    public static void Run()
     {
         int[] nums = { 5528, -444, -2520, 8588, 5526, -4508, 3202, 1735, 8208 };
 
