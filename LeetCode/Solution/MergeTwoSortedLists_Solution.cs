@@ -59,7 +59,7 @@
             return node;
         }
 
-        public ListNode BuildNode(List<int> ints)
+        public static ListNode BuildNode(List<int> ints)
         {
             if (ints.Count == 0)
             {
