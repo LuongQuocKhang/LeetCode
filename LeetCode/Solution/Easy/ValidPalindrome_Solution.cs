@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace LeetCode.Solution;
+namespace LeetCode.Solution.Easy;
 
 public class ValidPalindrome_Solution
 {

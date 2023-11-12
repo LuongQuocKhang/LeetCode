@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace LeetCode.Solution;
+namespace LeetCode.Solution.Easy;
 
 public class LowestCommonAncestorOfaBinarySearchTree_Solution
 {
@@ -63,7 +63,7 @@ public class LowestCommonAncestorOfaBinarySearchTree_Solution
 
             foreach (int qkey in q_parents.Keys)
             {
-                if(pNode.val == q_parents[qkey].val)
+                if (pNode.val == q_parents[qkey].val)
                 {
                     matchedNodes.Add(pNode);
                 }

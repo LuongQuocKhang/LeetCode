@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCode.Solution
+namespace LeetCode.Solution.Easy
 {
     public class FloodFill_Solution
     {

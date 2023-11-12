@@ -1,15 +1,15 @@
 ﻿using System.Numerics;
-using static LeetCode.Solution.MergeTwoSortedLists_Solution;
+using static LeetCode.Solution.Easy.MergeTwoSortedLists_Solution;
 
-namespace LeetCode.Solution
+namespace LeetCode.Solution.Medium
 {
     public class AddTwoNumbers_Solution
     {
         public static void Run()
         {
             ListNode l1 = new ListNode(9, null);
-            ListNode l2 = new ListNode(1, 
-                new ListNode(9, 
+            ListNode l2 = new ListNode(1,
+                new ListNode(9,
                 new ListNode(9,
                 new ListNode(9,
                 new ListNode(9,
@@ -27,7 +27,7 @@ namespace LeetCode.Solution
                 Console.Write(result.val);
                 result = result.next;
             }
-            
+
         }
 
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
@@ -49,7 +49,7 @@ namespace LeetCode.Solution
 
         public static ListNode BuildNode(string resultString)
         {
-            if(resultString.Length > 0)
+            if (resultString.Length > 0)
             {
                 string c = resultString.Substring(0, 1);
 
@@ -67,7 +67,7 @@ namespace LeetCode.Solution
 
         public static string GetListNodeString(ListNode l)
         {
-            if(l.next != null)
+            if (l.next != null)
             {
                 return l.val.ToString() + GetListNodeString(l.next);
             }

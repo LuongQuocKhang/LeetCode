@@ -1,5 +1,4 @@
-﻿
-namespace LeetCode.Solution;
+﻿namespace LeetCode.Solution.Easy;
 
 public class InvertBinaryTree_Solution
 {

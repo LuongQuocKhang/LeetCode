@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace LeetCode.Solution;
+namespace LeetCode.Solution.Easy;
 
 public class ReverseInteger_Solution
 {
@@ -13,14 +13,14 @@ public class ReverseInteger_Solution
     {
         try
         {
-            string numString = (Math.Abs(x)).ToString();
+            string numString = Math.Abs(x).ToString();
             StringBuilder result = new StringBuilder();
             for (int i = numString.Length - 1; i >= 0; i--)
             {
                 result.Append(numString[i]);
             }
-            int iresult = Int32.Parse(result.ToString());
-            return x < 0 ? iresult * (-1) : iresult;
+            int iresult = int.Parse(result.ToString());
+            return x < 0 ? iresult * -1 : iresult;
         }
         catch
         {

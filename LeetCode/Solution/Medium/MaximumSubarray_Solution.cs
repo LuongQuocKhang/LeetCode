@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Solution;
+﻿namespace LeetCode.Solution.Medium;
 
 public class MaximumSubarray_Solution
 {
