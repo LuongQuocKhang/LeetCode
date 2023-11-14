@@ -18,8 +18,10 @@ public class CountingBits_Solution
      * Start Time: 14/11/2023 11:54 PM
      * End Time:14/11/2023 11:58 PM
      * Result: 
-     * Runtime: Beats 5.07%of users with C# ( 132ms )
-     * Memory: Beats 5.19%of users with C# ( 78.59MB )
+     * Runtime: solution 1. Beats 5.07%of users with C# ( 132ms )
+     *          solution 2. Beats 64.15%of users with C# (90ms)
+     * Memory:  solution 1 Beats 5.19%of users with C# ( 78.59MB )
+     *          solution 2: Beats 40.80%of users with C# ( 39.78MB )
      * Need to search more effecient solution
      */
 
@@ -27,14 +29,33 @@ public class CountingBits_Solution
     public static void Run()
     {
         int num = 5;
-        int[] result = CountBits(num);
+        int[] result = CountBits_2(num);
 
         string results = string.Join(",", result);
 
         Console.WriteLine("[" + results + "]");
     }
 
-    public static int[] CountBits(int n)
+    public static int[] CountBits_2(int n)
+    {
+        int[] result = new int[n + 1];
+
+        for (int i = 0; i <= n; i++)
+        {
+            int num = i, sum = 0;
+
+            while(num != 0)
+            {
+                sum += (num % 2);
+                num /= 2;
+            }
+            result[i] = sum;
+        }
+
+        return result;
+    }
+
+    public static int[] CountBits_1(int n)
     {
         int[] result = new int[n + 1];
 
