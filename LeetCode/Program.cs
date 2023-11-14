@@ -1,12 +1,11 @@
-﻿using LeetCode.Dynamic_Programming.Easy;
-using LeetCode.Solution.Easy;
-using LeetCode.Solution.Medium;
+﻿using LeetCode.Learning.Sliding_Window;
+using LeetCode.Learning.Sliding_Window.Easy;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        CountingBits_Solution.Run();
+        MaxSumFixedSizeSubArray_Solution.Run();
 
         Console.ReadKey();
     }

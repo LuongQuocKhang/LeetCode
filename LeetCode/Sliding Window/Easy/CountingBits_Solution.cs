@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Dynamic_Programming.Easy;
+﻿namespace LeetCode.Sliding_Window.Easy;
 
 public class CountingBits_Solution
 {
@@ -15,13 +15,13 @@ public class CountingBits_Solution
     **/
 
     /***
-     * Start Time: 14/11/2023 11:54 PM
-     * End Time:14/11/2023 11:58 PM
+     * Start Time: 14/11/2023 11:54 AM
+     * End Time: 14/11/2023 11:58 AM
      * Result: 
-     * Runtime: solution 1. Beats 5.07%of users with C# ( 132ms )
-     *          solution 2. Beats 64.15%of users with C# (90ms)
-     * Memory:  solution 1 Beats 5.19%of users with C# ( 78.59MB )
-     *          solution 2: Beats 40.80%of users with C# ( 39.78MB )
+     * Runtime: solution 1. 
+     *          solution 2. 
+     * Memory:  solution 1 
+     *          solution 2: 
      * Need to search more effecient solution
      */
 

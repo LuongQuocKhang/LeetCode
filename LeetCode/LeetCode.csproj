@@ -10,6 +10,8 @@
   <ItemGroup>
     <Folder Include="Dynamic Programming\Medium\" />
     <Folder Include="Dynamic Programming\Hard\" />
+    <Folder Include="Sliding Window\Hard\" />
+    <Folder Include="Sliding Window\Medium\" />
     <Folder Include="Solution\Hard\" />
   </ItemGroup>
 
