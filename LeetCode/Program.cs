@@ -1,10 +1,12 @@
-﻿using LeetCode.Solution.Medium;
+﻿using LeetCode.Dynamic_Programming.Easy;
+using LeetCode.Solution.Easy;
+using LeetCode.Solution.Medium;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        LongestSubstringWithoutRepeatingCharacters_Solution.Run();
+        CountingBits_Solution.Run();
 
         Console.ReadKey();
     }

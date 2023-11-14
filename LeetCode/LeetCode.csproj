@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Dynamic Programming\Medium\" />
+    <Folder Include="Dynamic Programming\Hard\" />
     <Folder Include="Solution\Hard\" />
   </ItemGroup>
 

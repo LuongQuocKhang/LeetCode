@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Solution.Medium;
+﻿using System.Diagnostics;
+
+namespace LeetCode.Solution.Medium;
 
 public class LongestSubstringWithoutRepeatingCharacters_Solution
 {
@@ -13,7 +15,19 @@ public class LongestSubstringWithoutRepeatingCharacters_Solution
 
     public static void Run()
     {
+        Stopwatch sw = Stopwatch.StartNew();
+
         Console.WriteLine(LengthOfLongestSubstring("  "));
+
+        sw.Stop();
+
+        Console.WriteLine("LengthOfLongestSubstring: " + sw.ElapsedMilliseconds);
+
+        sw.Restart();
+        Console.WriteLine(LengthOfLongestSubstring_sw("  "));
+        sw.Stop();
+
+        Console.WriteLine("LengthOfLongestSubstring_sw:" + sw.ElapsedMilliseconds);
     }
 
     public static int LengthOfLongestSubstring(string s)
@@ -48,5 +62,17 @@ public class LongestSubstringWithoutRepeatingCharacters_Solution
             result = string.Empty;
         }
         return results.Any() ? results.Select(x => x.Length).Max() : 0;
+    }
+
+    public static int LengthOfLongestSubstring_sw(string s)
+    {
+        int start = 0, end = 0;
+
+        string result = "";
+        // | |
+        // abcsdda
+
+
+        return 0;
     }
 }
