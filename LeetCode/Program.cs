@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        FindTheKBeautyOfaNumber_Solution.Run();
+        SubstringsOfSizeThreewithDistinctCharacters_Solution.Run();
 
         Console.ReadKey();
     }
