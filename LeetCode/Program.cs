@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        DefuseTheBomb_Solution.Run();
+        MinimumRecolorstoGetKConsecutiveBlackBlocks_Solution.Run();
 
         Console.ReadKey();
     }
