@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode.Sliding_Window.Easy;
+﻿namespace LeetCode.Sliding_Window.Easy;
 
 public class MaximumStrongPairXORI_Solution
 {

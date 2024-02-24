@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        SubstringsOfSizeThreewithDistinctCharacters_Solution.Run();
+        DefuseTheBomb_Solution.Run();
 
         Console.ReadKey();
     }
