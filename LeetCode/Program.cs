@@ -1,10 +1,10 @@
-﻿using LeetCode.Sliding_Window.Easy;
+﻿using LeetCode.Arrays.Easy;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        MinimumRecolorstoGetKConsecutiveBlackBlocks_Solution.Run();
+        ConcatenationOfArray.Run();
 
         Console.ReadKey();
     }
