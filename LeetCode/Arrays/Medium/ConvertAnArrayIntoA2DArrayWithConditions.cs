@@ -5,8 +5,8 @@ public static class ConvertAnArrayIntoA2DArrayWithConditions
     /***
      * Tag: Medium
      * Name: 2610. Convert an Array Into a 2D Array With Conditions
-     * Start Time: 01/07/2023 15:30 AM
-     * End Time: 01/07/2023 15:45 AM
+     * Start Time: 01/07/2024 15:30 AM
+     * End Time: 01/07/2024 15:45 AM
      * Result: 
         * Runtime: solution 1: Beats 13.58% of users with C# ( 1250ms )
         * Memory:  solution 1: Beats 5.56% of users with C# ( 52.47MB )

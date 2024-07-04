@@ -5,8 +5,8 @@ public static class MinimumNumberOfOperationsToMoveAllBallsToEachBox
     /***
     * Tag: Medium
     * Name: 1769. Minimum Number of Operations to Move All Balls to Each Box
-    * Start Time: 01/07/2023 18:00 AM
-    * End Time: 01/07/2023 18:11 AM
+    * Start Time: 01/07/2024 18:00 AM
+    * End Time: 01/07/2024 18:11 AM
     * Result: 
         * Runtime: solution 1: Beats 41.38% of users with C# ( 161ms )
         * Memory:  solution 1: Beats 10.35% of users with C# ( 50.83MB )

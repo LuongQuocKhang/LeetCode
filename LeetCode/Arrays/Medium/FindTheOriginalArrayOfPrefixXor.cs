@@ -7,8 +7,8 @@ public static class FindTheOriginalArrayOfPrefixXor
     /***
     * Tag: Medium
     * Name: 2433. Find The Original Array of Prefix Xor
-    * Start Time: 01/07/2023 11:30 AM
-    * End Time: 01/07/2023 11:51 AM
+    * Start Time: 01/07/2024 11:30 AM
+    * End Time: 01/07/2024 11:51 AM
     * Result: 
         * Runtime: solution 1: Beats 74.42% of users with C# ( 305ms )
         * Memory:  solution 1: Beats 5.81% of users with C# ( 87.70MB )
