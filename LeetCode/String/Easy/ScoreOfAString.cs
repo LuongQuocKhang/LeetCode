@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode.String.Easy;
+﻿namespace LeetCode.String.Easy;
 
 public class ScoreOfAString
 {
     /***
-    * Tag: Medium
+    * Tag: Easy
     * Name: 1828. Queries on Number of Points Inside a Circle
     * Start Time: 04/07/2024 18:24 PM
     * End Time: 04/07/2024 10:30 PM
