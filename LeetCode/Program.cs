@@ -5,7 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        PermutationDifferenceBetweenTwoStrings.Run();
+        ReversePrefixOfWord.Run();
 
         Console.ReadKey();
     }
