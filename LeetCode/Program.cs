@@ -5,7 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        ReversePrefixOfWord.Run();
+        CountItemsMatchingARule.Run();
 
         Console.ReadKey();
     }
