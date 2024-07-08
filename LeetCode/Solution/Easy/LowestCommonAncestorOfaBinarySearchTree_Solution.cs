@@ -18,7 +18,7 @@ public class LowestCommonAncestorOfaBinarySearchTree_Solution
 
     public static TreeNode insertLevelOrder(int?[] arr, int i)
     {
-        TreeNode root = null;
+        TreeNode? root = null;
         // Base case for recursion
         if (i < arr.Length && arr[i] != null)
         {

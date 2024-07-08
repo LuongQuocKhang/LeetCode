@@ -4,19 +4,19 @@ public class InvertBinaryTree_Solution
 {
     public static void Run()
     {
-        InvertTree(new TreeNode());
+        InvertTree(new TreeNode(0));
     }
 
-    public static TreeNode InvertTree(TreeNode root)
+    public static TreeNode? InvertTree(TreeNode root)
     {
         if (root == null) return root;
 
         TreeNode node = new TreeNode(root.val);
 
-        TreeNode leftNode = root.left;
-        TreeNode rightNode = root.right;
+        TreeNode? leftNode = root.left;
+        TreeNode? rightNode = root.right;
 
-        TreeNode tempNode = null;
+        TreeNode? tempNode = null;
 
         tempNode = leftNode;
         leftNode = rightNode;
