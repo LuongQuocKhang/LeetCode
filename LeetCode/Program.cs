@@ -5,8 +5,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        WaterBottles.Run();
+        CellsInARangeOnAnExcelSheet.Run();
 
-        Console.ReadKey();
+        // Console.ReadKey();
     }
 }

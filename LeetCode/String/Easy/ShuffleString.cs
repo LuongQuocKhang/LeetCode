@@ -1,6 +1,4 @@
-﻿using System.Text;
-
-namespace LeetCode.String.Easy;
+﻿namespace LeetCode.String.Easy;
 
 public class ShuffleString
 {
