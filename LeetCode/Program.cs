@@ -1,12 +1,11 @@
-﻿using LeetCode.Math_Simulation.Easy;
-using LeetCode.Math_Simulation.Medium;
-using LeetCode.String.Easy;
+﻿using LeetCode.Arrays.Easy;
+using LeetCode.Arrays.Medium;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        FinalStringSolution.Run();
+        CrawlerLogFolder.Run();
 
         // Console.ReadKey();
     }
