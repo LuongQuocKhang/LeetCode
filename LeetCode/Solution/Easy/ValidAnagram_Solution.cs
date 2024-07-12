@@ -9,7 +9,7 @@ public class ValidAnagram_Solution
 
     public static bool IsAnagram(string s, string t)
     {
-        if (string.IsNullOrEmpty(s) || string.IsNullOrEmpty(t)) return false;
+        if (string.IsNullOrEmpty(s) && string.IsNullOrEmpty(t)) return true;
         if (s.Length != t.Length) return false;
 
         char[] chars = s.ToCharArray();
