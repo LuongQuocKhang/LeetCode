@@ -5,7 +5,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        GroupAnagramsSolution.Run();
+        PartitionLabelsSolution.Run();
 
         // Console.ReadKey();
     }
