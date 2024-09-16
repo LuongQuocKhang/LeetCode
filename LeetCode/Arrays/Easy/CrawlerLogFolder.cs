@@ -7,8 +7,8 @@ public class CrawlerLogFolder
     /***
     * Tag: Easy
     * Name: 1598. Crawler Log Folder
-    * Start Time: 09/07/2024 9:30 AM
-    * End Time: 09/07/2024 9:35 PM
+    * Start Time: 10/07/2024 10:30 AM
+    * End Time: 10/07/2024 10:32 AM
     * Result: 
         * Runtime: solution 1: Beats 83.56% of users with C# ( 53ms )
         * Memory:  solution 1: Beats 97.26% of users with C# ( 40.14MB )
