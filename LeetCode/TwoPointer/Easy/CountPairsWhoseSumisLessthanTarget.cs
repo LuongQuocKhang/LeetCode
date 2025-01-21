@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Two_Pointer.Easy;
+﻿namespace LeetCode.TwoPointer.Easy;
 
 public class CountPairsWhoseSumisLessthanTarget
 {
